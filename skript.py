@@ -1,7 +1,5 @@
 import http.server
-import zipfile
 from urllib.parse import unquote
-import io
 import json
 
 class GeoNamesHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
